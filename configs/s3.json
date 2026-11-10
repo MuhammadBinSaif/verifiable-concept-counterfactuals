@@ -1,0 +1,95 @@
+{
+  "C": 16,
+  "D": 200,
+  "H1": 64,
+  "H2": 32,
+  "architecture": [
+    200,
+    64,
+    32,
+    16,
+    2
+  ],
+  "circuits": {
+    "a": "circuits/s3/stage_a.circom",
+    "b": "circuits/s3/stage_b.circom"
+  },
+  "expected": {
+    "a": {
+      "constraints": 4302766,
+      "privateInputs": 15727,
+      "publicInputs": 12,
+      "publicOutputs": 0,
+      "r1cs_sha256": "14362ca9cb2c137f24de2e1a61d0d188e207ea6de87d209a240c6ef7220ae239",
+      "required_power": 23
+    },
+    "b": {
+      "constraints": 39848,
+      "privateInputs": 51,
+      "publicInputs": 33,
+      "publicOutputs": 0,
+      "r1cs_sha256": "d3f66eb1c001536b0ca7cb84c57e4187d70a55c54b94e3e16e5eff372946463d",
+      "required_power": 16
+    }
+  },
+  "explanationCommitment": {
+    "domain": 1007,
+    "nonceNonzero": true,
+    "noncePrivate": true,
+    "payloadLength": 22,
+    "publicSignalIndex": 32,
+    "schemeVersion": 1
+  },
+  "id": "s3",
+  "mode": "synthetic_stress",
+  "parameters": 15506,
+  "policy": {
+    "allowed_mask": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "concept_maximum": 10000,
+    "concept_minimum": 0,
+    "direction": "nonnegative",
+    "l1_bound": 4000,
+    "sparsity_bound": 1
+  },
+  "proving": {
+    "curve": "bn254",
+    "model_commitment": "width8",
+    "sequential": true,
+    "setup_security": "DEV_INSECURE",
+    "system": "groth16"
+  },
+  "quantization": {
+    "class_zero_on_margin_tie": true,
+    "rounding": "nearest_ties_away_from_zero",
+    "scale": 10000
+  },
+  "scope": "Deterministic synthetic computational workload; no financial accuracy claim",
+  "seed": 2026102701,
+  "versions": {
+    "architectureVersion": 101,
+    "explanationCircuitVersion": 102,
+    "modelCommitmentVersion": 2,
+    "modelVersion": 1,
+    "preprocessingVersion": 1,
+    "quantizationVersion": 1,
+    "schemaVersion": 101,
+    "stateCircuitVersion": 102
+  }
+}

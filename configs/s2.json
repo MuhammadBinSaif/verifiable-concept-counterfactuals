@@ -1,0 +1,89 @@
+{
+  "C": 8,
+  "D": 64,
+  "H1": 32,
+  "H2": 16,
+  "architecture": [
+    64,
+    32,
+    16,
+    8,
+    2
+  ],
+  "circuits": {
+    "a": "circuits/s2/stage_a.circom",
+    "b": "circuits/s2/stage_b.circom"
+  },
+  "expected": {
+    "a": {
+      "constraints": 823430,
+      "privateInputs": 2839,
+      "publicInputs": 12,
+      "publicOutputs": 0,
+      "r1cs_sha256": "42ccde19d69a4fd994e825cf7403dc2ce3835424e372d93cefb520393b27fdcb",
+      "required_power": 20,
+      "wires": 808437
+    },
+    "b": {
+      "constraints": 25771,
+      "privateInputs": 27,
+      "publicInputs": 25,
+      "publicOutputs": 0,
+      "r1cs_sha256": "5800472eaa298af9e2bfd0369213afeeef9533ea347bf22b895edcf51cd71e57",
+      "required_power": 15,
+      "wires": 25668
+    }
+  },
+  "explanationCommitment": {
+    "domain": 1007,
+    "nonceNonzero": true,
+    "noncePrivate": true,
+    "payloadLength": 14,
+    "publicSignalIndex": 24,
+    "schemeVersion": 1
+  },
+  "id": "s2",
+  "mode": "synthetic_stress",
+  "parameters": 2762,
+  "policy": {
+    "allowed_mask": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "concept_maximum": 10000,
+    "concept_minimum": 0,
+    "direction": "nonnegative",
+    "l1_bound": 4000,
+    "sparsity_bound": 1
+  },
+  "proving": {
+    "curve": "bn254",
+    "model_commitment": "width8",
+    "sequential": true,
+    "setup_security": "DEV_INSECURE",
+    "system": "groth16"
+  },
+  "quantization": {
+    "class_zero_on_margin_tie": true,
+    "rounding": "nearest_ties_away_from_zero",
+    "scale": 10000
+  },
+  "scope": "Deterministic synthetic computational workload; no financial accuracy claim",
+  "seed": 2026102701,
+  "versions": {
+    "architectureVersion": 301,
+    "explanationCircuitVersion": 302,
+    "modelCommitmentVersion": 2,
+    "modelVersion": 1,
+    "preprocessingVersion": 1,
+    "quantizationVersion": 1,
+    "schemaVersion": 301,
+    "stateCircuitVersion": 302
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "configuration": "s3",
+  "default_candidate_count": 20,
+  "default_candidate_origin": "RECOVERED_OPTIMIZED_EXPERIMENT_INPUTS",
+  "default_file": "original.json",
+  "historical_experiment_fixture_status": "RECOVERED",
+  "historical_run": {
+    "circuit_hashes": {
+      "a": "14362ca9cb2c137f24de2e1a61d0d188e207ea6de87d209a240c6ef7220ae239",
+      "b": "d3f66eb1c001536b0ca7cb84c57e4187d70a55c54b94e3e16e5eff372946463d"
+    },
+    "commitments_recomputed_from_recovered_inputs": true,
+    "counts": {
+      "A": 3,
+      "B": 20
+    },
+    "explanation_commitments_checked": 20,
+    "input_payload_checksums_verified": 23,
+    "label": "completed_large_optimized",
+    "manifest_sha256": "31e798842eeef346637c21946ae34a9c26a0862256a0652d520469069ac4a331",
+    "model_head_input_state_commitments_checked": 12,
+    "proving_records_sha256": "5a7c5bdf2354d5f524d5310addda7ff7b76ff96418ab24b4a09024e71dde7ea5",
+    "public_output_checksums_verified": 27,
+    "public_signal_records_match_inputs": true,
+    "runtime_randomness_excluded_from_published_data": true,
+    "serialized_public_signal_checksums_verified": 23,
+    "source_identity": "f2c6a2e4700669f09a570b911b38f14aaddf6feaf3979dd832e656af19a3dd39",
+    "source_inputs": [
+      {
+        "historical_payload_sha256": "58d153fc5cb9cbba698236cea6bb78894dbf59357c1022a24c5f20bf62f4d716",
+        "historical_public_sha256": "8e1b01ed4729a0d6a2560c645376faddcff06d703319f3cc81d33a42ddc92670",
+        "path": "artifacts/private/proofs/a/0/input.json",
+        "sha256": "68888620213f8a8f5e1f43633db9683e855467742c152e79131dd446a265e602"
+      },
+      {
+        "historical_payload_sha256": "15c3c5034a4878aa0dbc30e5c81fa95b18bfd5260f311c6afda15651170f8d87",
+        "historical_public_sha256": "ad145532d9630bcc098f72af35ba028de8aa1798f80605d25ca7203f692574c8",
+        "path": "artifacts/private/proofs/a/1/input.json",
+        "sha256": "736da052c8c6799c554c472020c9518aae4acb862bc46f011dd5da8bac3fad45"
+      },
+      {
+        "historical_payload_sha256": "ef164df7cc7bda9b8f28dfbfb16378a4d9e0655fae12d4f3f1169a77c7465c22",
+        "historical_public_sha256": "dd4662da825c5593d5dbb51e71447eb9db3fc2f53dcbb1bed2b28814851512e6",
+        "path": "artifacts/private/proofs/a/2/input.json",
+        "sha256": "5e784ad1e12b73c83f9a656eff1d0ebdb6f897b3474ba0640b7d9ad58787b794"
+      },
+      {
+        "historical_payload_sha256": "3cc093ea68c2a6049264564679e8281f1f155c87d1109f077b2ffb8d1d5b14e1",
+        "historical_public_sha256": "ce01754c820ac702dc6739ffdfe120ad301aa62b6c9ce2d2d1bd63b543e80451",
+        "path": "artifacts/private/proofs/b/0/input.json",
+        "sha256": "d15258a57b970b90285d5603f4c63de521724f57111a8d6ef04d7541fef28019"
+      },
+      {
+        "historical_payload_sha256": "969bfdfc6b75ec4bbf5da7d08e9595d31d608f8a27dc95fdbad3b7edcddae496",
+        "historical_public_sha256": "fd27d11ba9cfd7d7af437c819c49c0e91c9010cd632398350f2583292b343a57",
+        "path": "artifacts/private/proofs/b/1/input.json",
+        "sha256": "cdf91dcdd09c50df250e8ea7c6059a37aa217bdbc7122657a286a398a2fbe240"
+      },
+      {
+        "historical_payload_sha256": "aa4e76a4cca328f1cf5407a2256bd41bd0f452de16d6b7f0710b40ba63a1e2f5",
+        "historical_public_sha256": "4fb7788318a27ce42602fb7083bf30fe6c7264fe7f626ecabdd40706bb0a3f43",
+        "path": "artifacts/private/proofs/b/2/input.json",
+        "sha256": "3fd430f7c8afe269f027e164744c4de0fbc333286ca4de239eaf058376dde1a4"
+      },
+      {
+        "historical_payload_sha256": "2c6f59f2cc4634161d6c1fda416179f07f84cd167ecaa5481dc50b9536e8c468",
+        "historical_public_sha256": "51b359b9171f35ebb1b9a928e301b403bb81142c11d9a5005a0684d6ed00aec4",
+        "path": "artifacts/private/proofs/b/3/input.json",
+        "sha256": "dec5081a0f0643715d63e8251c8a16f45c3ea46a757e36f3c342466b1503afff"
+      },
+      {
+        "historical_payload_sha256": "8a4df58db0fe024fdc78a52852926f6de77ce438f6993a79b6f3f4dfb128a29b",
+        "historical_public_sha256": "3e5cd637c78a38b3f4ffa38afd539ac15ba39cb6f607f6490b95b3a56f7900bb",
+        "path": "artifacts/private/proofs/b/4/input.json",
+        "sha256": "a31131b469816125a545ef5d6b543181bdc151b2f628759172c0e7a9a0c940a3"
+      },
+      {
+        "historical_payload_sha256": "00a51a101c8964c198dd9fa5789945af5b9af9782f959df636eec48011d5ee74",
+        "historical_public_sha256": "d41002566baf99cef90d0721a3926cfdba928efebaff0c1d0b5ff4ca5742046b",
+        "path": "artifacts/private/proofs/b/5/input.json",
+        "sha256": "00d8f50af39ce1ea2e5b4ef7394ac5b11a7fee8289ff16f25984c10b56bbd4ac"
+      },
+      {
+        "historical_payload_sha256": "e937b54ad20615de8b6ad7ab6adbbe4cfcd462d363d4d19d78ef91c1c162e25f",
+        "historical_public_sha256": "8feae35a4803ac2f74878e78315ae02ca7805558cafbb7fb12df02dcc526b6fd",
+        "path": "artifacts/private/proofs/b/6/input.json",
+        "sha256": "e15e0935eee64b7a6cf7ab81c2993253667473d47c71da1722baa7d13ab192d3"
+      },
+      {
+        "historical_payload_sha256": "f9a6da53c2b8190d8a25a24a30278227a7053975607147f2efd0e3c8cebe4453",
+        "historical_public_sha256": "1945e952436dad279c8f4bf3234f3664b6c06a9fd69213bb939faaa3682c902d",
+        "path": "artifacts/private/proofs/b/7/input.json",
+        "sha256": "0dfb23690f7a7d6e39f75edfb6b6f8dc938ffa3a3fe936460875d20fa6245949"
+      },
+      {
+        "historical_payload_sha256": "2dbdd7e463555ac5c7f966fae7f8a348f854a0fe43fbacfd4173aa7a6ccda650",
+        "historical_public_sha256": "315534c61287ea9c1a4a24c1b4aa51f50ad58d13ff85a4cd25da93be97da58c5",
+        "path": "artifacts/private/proofs/b/8/input.json",
+        "sha256": "b4c40785d6277abf5845d2254f0da8b628e311cff3fe286844ab1ba300056061"
+      },
+      {
+        "historical_payload_sha256": "f851be8a0c2c11e37e89d2e4c76765c147beb8e9ed22b514160e2d47f1687a61",
+        "historical_public_sha256": "de75c1e02a5dc8a7f9359548738341b4416ec6b0763837ffca8db7fad6684d75",
+        "path": "artifacts/private/proofs/b/9/input.json",
+        "sha256": "f55220e6fa067508538e5b5c98261623d5d84e7199a2e8dc18f2d9c74d965b0d"
+      },
+      {
+        "historical_payload_sha256": "bedc2c51673e13e902bb51cfffb05f0a74245589e84910287d28358de9a6cd97",
+        "historical_public_sha256": "63d3112ed441ad3d1d7a88ccb5035527c14491345d0b06735499a9c6c6f8dd92",
+        "path": "artifacts/private/proofs/b/10/input.json",
+        "sha256": "d02eba72f8222b159b5545e495bd6e805f8601850a05b3b64bc3d54bc376b2f1"
+      },
+      {
+        "historical_payload_sha256": "7c6dff8ae398bb17b8aea9de5d7c8afe506965ce28c04385d5b633480b86ce9b",
+        "historical_public_sha256": "220a6895bc240f533798c9b9d8f7c19c3eb43c6bc726e55500189ccc097f6319",
+        "path": "artifacts/private/proofs/b/11/input.json",
+        "sha256": "eb9576ede95df027f99e3247718c0c5360a30495d963c3e90e785a94b3ee20c7"
+      },
+      {
+        "historical_payload_sha256": "3a36d3b8c3184ffe13b7fc333fc6770c1b8c061eb6b7a927bce7b3a5656b2503",
+        "historical_public_sha256": "c0ec19ad23109760b52d018d1a75e910c2dcf33627b9915d7d0444cb12c67e1d",
+        "path": "artifacts/private/proofs/b/12/input.json",
+        "sha256": "8165c5c0ac10b0839d976243e29e4fe4c0d0afbda90b575acfdf6c6f5efe9f60"
+      },
+      {
+        "historical_payload_sha256": "15837bf15cfb174414a3562a29eab4ef8e6f582a8c854b3cc901ef071c5b42c4",
+        "historical_public_sha256": "fa3ac341144639dea97c72753268b382b91d47a198097e00af53c9942396a828",
+        "path": "artifacts/private/proofs/b/13/input.json",
+        "sha256": "89672b0f4a314254c342272f6c876dc1e05abb90d42967afdc9a3b41463407c6"
+      },
+      {
+        "historical_payload_sha256": "6d5eacb0078f1c5659fe3f5965b5b71de8773820189849e1fa201e04c223a278",
+        "historical_public_sha256": "bab04b86ac44a3f2ec9e77ec514e3d29e0ff472c6485ecb2b81edeb56df92da4",
+        "path": "artifacts/private/proofs/b/14/input.json",
+        "sha256": "85f8f3ca1df16ff545d78bb95548836db24caefb6f860d1ae0f48ae3aa112f21"
+      },
+      {
+        "historical_payload_sha256": "8b88bd97891509aed558d37a1b70fff9492942041af07c2f1a0f8dc489ada6a3",
+        "historical_public_sha256": "88437b5c6c15482b501f61735b739b09fb327e53eae7a49adfd004a2bce1fe0f",
+        "path": "artifacts/private/proofs/b/15/input.json",
+        "sha256": "34b40b7a4777e82b21a14a3e1e20c9a86f62d2bdd07e9caf51971e3cc59ea2b6"
+      },
+      {
+        "historical_payload_sha256": "9b3d9652a4b52adafc5c72f353863ac31633ab78b980f8af63a0a7760704193b",
+        "historical_public_sha256": "05b7873ca29864866034dab9193f903cdcdadcc8830ac8716722b6bbfab89c87",
+        "path": "artifacts/private/proofs/b/16/input.json",
+        "sha256": "1153648f26410c7166368750dcbf1fd13102b0d141f9fc175f52ce48fb38461c"
+      },
+      {
+        "historical_payload_sha256": "c12ca606e2fb85b47dc519685ef111b3b0d845439a87c15dc80a9bb6112f817f",
+        "historical_public_sha256": "e1e2f7dfca1ea856ee3153bdb98db014c7645f7bb7770aaddac0cc4a26be6b7b",
+        "path": "artifacts/private/proofs/b/17/input.json",
+        "sha256": "b294f694b5c14b50acb0be6770ff1457ff9c6a7ab4f05434eefff2cc06cb011d"
+      },
+      {
+        "historical_payload_sha256": "5a40a07582cb6d0bb48c5d6b47c9b5d957c73ce5efd222284c5d1da51f4158b5",
+        "historical_public_sha256": "eb59b789975cdb56caa7c3296c64b679a9904438739d1cd6a6dbcab49144b37e",
+        "path": "artifacts/private/proofs/b/18/input.json",
+        "sha256": "e14f9dc289059f2663fbab3d0043d3632ed923fe6b404d1778355605da3e42ec"
+      },
+      {
+        "historical_payload_sha256": "57331e23532c26dfda7ef4cbdeef8dc6af881b34c691ce1b4eb7818203641ce4",
+        "historical_public_sha256": "99fcbd80eee229b4be17e1716699d1792235ccee0d62f06ca80d556d3749bbee",
+        "path": "artifacts/private/proofs/b/19/input.json",
+        "sha256": "a5d7bfa85338a4da7f2d4cb438bfcdda7191882a31e1b22f1c271b012de2fe89"
+      },
+      {
+        "path": "artifacts/private/fixtures/0/0.json",
+        "sha256": "cb06e0030b8eaee34aa42c20db5d7b0c37600232710d3dc848a6eed523865aa5"
+      },
+      {
+        "path": "artifacts/private/fixtures/1/0.json",
+        "sha256": "b0b8c2fa20a8bf4a160054e2c732140aae8f30ed9a75753603bb366c28bfa333"
+      },
+      {
+        "path": "artifacts/private/fixtures/2/0.json",
+        "sha256": "e34297dce23718284ec7b55c67565da2ba324ee309611957bf58bbe486fb5921"
+      }
+    ],
+    "source_revision": "UNCOMMITTED:f2c6a2e4700669f09a570b911b38f14aaddf6feaf3979dd832e656af19a3dd39",
+    "status": "COMPLETED"
+  },
+  "local_preparation_source": {
+    "mode": "synthetic_stress",
+    "path": "research/artifacts/private/fixtures/9000/0.json",
+    "seed": 2026102701,
+    "sha256": "414ab0db67a2293428c2e5d85ed85feb6ba2308c2b34a5e914f03ffe82db0cff"
+  },
+  "notes": [
+    "original.json copies numerical model/input values and all twenty modified-concept vectors from the completed optimized run inputs.",
+    "All three Stage A and twenty Stage B payload identities and serialized public-signal checksums match the retained proving records. Historical public proof files are not required for these checksum comparisons and were not recovered here.",
+    "Integer traces, intervention differences and expected outputs were recomputed using the retained reference. Twelve A commitments and twenty explanation commitments were independently reconstructed in memory.",
+    "Runtime blinding, private nonces and historical public commitments are excluded. Fresh runtime commitments do not reproduce historical public commitments."
+  ],
+  "public_data_classification": "NON_CONFIDENTIAL_SYNTHETIC_TEST_DATA",
+  "public_files": {
+    "original.json": "5017df82d48a25f92ba5c9182f72c13169633b31ab46fc822391f722bec4d952"
+  },
+  "recovered_candidate_count": 20,
+  "recovered_fixture_kind": "COMPLETED_OPTIMIZED_EXPERIMENT_INPUTS",
+  "recovered_source": {
+    "mode": "synthetic_stress",
+    "path": "research/artifacts/private/fixtures/0/0.json",
+    "seed": 2026102701,
+    "sha256": "cb06e0030b8eaee34aa42c20db5d7b0c37600232710d3dc848a6eed523865aa5"
+  },
+  "schema": 1,
+  "source_verification": {
+    "commitment_randomness_excluded": true,
+    "derived_trace_fields": [],
+    "historical_public_commitments_reproduced": false,
+    "model_and_input_match_retained_seeded_generator": true,
+    "original_trace_matches_integer_reference": true,
+    "recorded_candidate_matches_integer_policy": true
+  }
+}

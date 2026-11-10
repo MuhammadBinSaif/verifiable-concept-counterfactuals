@@ -1,0 +1,26 @@
+{
+  "name": "verifiable-concept-counterfactuals",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Two-stage ZKP verification of concept-level counterfactual explanations",
+  "engines": {
+    "node": "24.21.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "bash scripts/setup.sh --check"
+  },
+  "devDependencies": {
+    "hardhat": "3.18.1",
+    "@nomicfoundation/hardhat-toolbox-viem": "5.0.7",
+    "typescript": "6.0.3",
+    "viem": "2.56.9",
+    "snarkjs": "0.7.6",
+    "circomlib": "2.0.5",
+    "circomlibjs": "0.1.7",
+    "solc": "0.8.37",
+    "@types/node": "22.7.5"
+  }
+}

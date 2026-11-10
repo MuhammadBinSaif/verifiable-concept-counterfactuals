@@ -1,0 +1,15 @@
+Software license pending
+
+No software license grant is made by this file. The authors must approve
+ownership, redistribution permissions and licensing before public release.
+Preparing this directory does not clear those rights or establish an
+open-source license.
+
+Adapted protocol, integer and commitment components retain the pending
+licensing status of the approved research reference. No new license is
+selected for those components. See THIRD_PARTY_NOTICES.md and the source
+provenance records.
+
+Generated snarkjs Solidity verifiers must retain their upstream GPL-3.0
+and copyright notices. Third-party dependencies and tools retain their
+respective terms. This notice does not relicense them.

@@ -1,0 +1,144 @@
+{
+  "kind": "SOURCE_PROVENANCE",
+  "entries": [
+    {
+      "source": "research/circuits/shared/state_integer_v1.circom",
+      "publication": "circuits/shared/integer_arithmetic.circom",
+      "source_sha256": "3305dae472c4b94f2f85f2313f8b51ae93c0ce7f7278a498c2c7552dcdb50070",
+      "publication_sha256": "3305dae472c4b94f2f85f2313f8b51ae93c0ce7f7278a498c2c7552dcdb50070",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "ec8da68f4bf9726b0269b7bdd55b11ed39187c74debb93ab06fa2d206c799041"
+    },
+    {
+      "source": "research/circuits/shared/state_poseidon_v1.circom",
+      "publication": "circuits/shared/poseidon_sequence.circom",
+      "source_sha256": "60b2c557c2bf395ba85d7d1a3bda7c85cecbc575937f2550f990414112ecce12",
+      "publication_sha256": "60b2c557c2bf395ba85d7d1a3bda7c85cecbc575937f2550f990414112ecce12",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "268934924e687ddb532fc1506fe12fdbaef2922838350e893a7a277a2bf124fd"
+    },
+    {
+      "source": "research/circuits/shared/stress_integer.circom",
+      "publication": "circuits/shared/quantized_activations.circom",
+      "source_sha256": "1d1a5d6ca3932ca06f535540168357bebf780e900fe54044835c4b3e8bc8e030",
+      "publication_sha256": "ca9acb3712a1c980f8b224a8cdcac0dac5d0ce6463b294681fdb127370c871f7",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "e4c225a7345b66d83515c4e4863494ec40cc9993d3b41fedd448e4d764e35463"
+    },
+    {
+      "source": "research/circuits/shared/stress_encoder.circom",
+      "publication": "circuits/shared/encoder.circom",
+      "source_sha256": "bba334de8e25bc4d5487d422126341d5ed08d02ffeb3f03ec60576f74ad49ed3",
+      "publication_sha256": "e4e301d2dd4183bfd8e8158eb5b89d493ab73e310b40d9f617afaddbb41cc919",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "14088959835da4d8a79127c463bc714e3666c6fb573acb7c40c4d91a6c6f523c"
+    },
+    {
+      "source": "research/circuits/shared/stress_head.circom",
+      "publication": "circuits/shared/decision_head.circom",
+      "source_sha256": "6830e33cd287dfef361311f683207fbd0d90577929fe228d966860a94db84eec",
+      "publication_sha256": "652d9017fe4476fcf3959f87acea1b689ccd7e3576c86730a87e7bd72ce6b895",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "addc26d2769a87cde5df93f1655643004e29cb9f9d2f1b298dfe357a230e9462"
+    },
+    {
+      "source": "research/circuits/shared/stress_commitments.circom",
+      "publication": "circuits/shared/commitments.circom",
+      "source_sha256": "6013f44a17c1b1dc8342a9be3cc788861956cee488598d73c5790bb37d0be893",
+      "publication_sha256": "f96e06ab786e98f64b02d72a65fd8ef631143742cbfa9197cc9120f09da5a489",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "0de7fcfee98afdff0a54332118355af40c93bf60311b42a39720260b758d9ec6"
+    },
+    {
+      "source": "research/circuits/shared/stress_policy.circom",
+      "publication": "circuits/shared/intervention_policy.circom",
+      "source_sha256": "7d60113d33f7153d100e5e9605d3288b13cd80c5597803794e9ab5ff72c3bbb5",
+      "publication_sha256": "dffffb6fb3c9e0dc4582b0e044d09f8594c25a849d77e80b92216ceffac1cb4d",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "0b1dbd8db8b486f41db35358626d40f7d7d7691b2087ce4c97eb42981e2c26d1"
+    },
+    {
+      "source": "research/circuits/shared/stress_state.circom",
+      "publication": "circuits/shared/state_certification.circom",
+      "source_sha256": "8fe95a102e9eeb75cdf89562d959fd989c2f4f40552d39b2316066ba97a74c3d",
+      "publication_sha256": "6ea2fe0b7cd355c8707e8f9751d288f9e9204481b63e2d66a42a42ed3fdef2ee",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "aa59e41e7a0475ff8fd8567590591078703c79628279ffc21fb1b633e0a39024"
+    },
+    {
+      "source": "research/circuits/shared/stress_explanation.circom",
+      "publication": "circuits/shared/explanation_verification.circom",
+      "source_sha256": "49fc38ffdc408941b22f4d7b060e54d3fa0c3ab16f98d42a066e9761a1571596",
+      "publication_sha256": "f86fc4fba924baeab7312c161862417ebfcf38f920d645d86071358dbf3387cc",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "f685e2df4d92d3c9f444ab54a20be45e6c13c73f4ef4bb82f8615891666ef56d"
+    },
+    {
+      "source": "research/circuits/stage_a/state_certification.circom",
+      "publication": "circuits/s3/stage_a.circom",
+      "source_sha256": "7a65d6a40a424ef5eb86b72f35d933edca253133ca75f872b11d1f3859e66d41",
+      "publication_sha256": "7f8add22ee95de9824bd279807eae2104bd0273c77a233a311cc205554323052",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "fe6e1836d22def8aab7d23833d049855d5111160a670261acf9f6de1fde29b4d"
+    },
+    {
+      "source": "research/circuits/stage_b/explanation.circom",
+      "publication": "circuits/s3/stage_b.circom",
+      "source_sha256": "6c90fa7b5514765f07c253d53a42c119e07bed882c9109bbac311a0a164bfcc4",
+      "publication_sha256": "83f7337f0e3061c56e04ebb4208307c46a363045c41b37dedf29b07306e304f7",
+      "comparison": "Tokens identical after include-path normalization and comment removal",
+      "status": "PASS",
+      "normalized_token_sha256": "bf64cc8a6b8571a1c43b990776d149bfb95c08f5265d1d4da6a91d0b39c09b46"
+    },
+    {
+      "source": "research/contracts/interfaces/IVerifiers.sol",
+      "publication": "contracts/interfaces/IVerifiers.sol",
+      "source_sha256": "67107ddae713dd0e72a8f0666d291722b2f333d19e5b1a60eae6f4dcf3bc1cee",
+      "comparison": "Byte identical",
+      "status": "PASS"
+    },
+    {
+      "source": "research/contracts/protocol/ExplanationCertificateRegistryV3.sol",
+      "publication": "contracts/protocol/ExplanationCertificateRegistryV3.sol",
+      "source_sha256": "cd562ecbb7def1cde5a5f44959535092c850d17127bc4e463917c00fea0536c3",
+      "comparison": "Byte identical",
+      "status": "PASS"
+    },
+    {
+      "source": "research/contracts/protocol/InputCommitmentRegistryV3.sol",
+      "publication": "contracts/protocol/InputCommitmentRegistryV3.sol",
+      "source_sha256": "acbbeeb25651f7aad6fa6728d2edd4a86b81c442123cf1358856433dd9678f97",
+      "comparison": "Byte identical",
+      "status": "PASS"
+    },
+    {
+      "source": "research/contracts/protocol/ModelRegistryV3.sol",
+      "publication": "contracts/protocol/ModelRegistryV3.sol",
+      "source_sha256": "d32b82e42e7bd9bad2d3fa1b28ead52618e3f073e29485dedacfa27a4f30dc56",
+      "comparison": "Byte identical",
+      "status": "PASS"
+    },
+    {
+      "source": "research/contracts/protocol/StateCertificationRegistryV3.sol",
+      "publication": "contracts/protocol/StateCertificationRegistryV3.sol",
+      "source_sha256": "88b7782981dc7977ddf6cb236e8cda855f60cd49e4aa6d2957604f6428ee93e6",
+      "comparison": "Byte identical",
+      "status": "PASS"
+    }
+  ],
+  "source_identities": {
+    "s1": "5f62bc293f1ac9f4925b6523f154bb8400ca361a39ba4f47c396d2f8dc502a33",
+    "s2": "5f62bc293f1ac9f4925b6523f154bb8400ca361a39ba4f47c396d2f8dc502a33",
+    "s3": "f2c6a2e4700669f09a570b911b38f14aaddf6feaf3979dd832e656af19a3dd39"
+  }
+}

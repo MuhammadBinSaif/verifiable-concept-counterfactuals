@@ -1,0 +1,142 @@
+{
+  "configuration": "s1",
+  "default_candidate_count": 20,
+  "default_candidate_origin": "RECOVERED_OPTIMIZED_EXPERIMENT_INPUTS",
+  "default_file": "original.json",
+  "historical_experiment_fixture_status": "RECOVERED",
+  "historical_run": {
+    "circuit_hashes": {
+      "a": "55e76cfbf8cbe1a8d5881a8ef447652ce7f976a883ec0527eecffc6a049c8b53",
+      "b": "93392325799ffbaec946e679a702a03f34c75b7a79b25a6067121ae0abf52493"
+    },
+    "commitments_recomputed_from_recovered_inputs": true,
+    "counts": {
+      "A": 3,
+      "B": 20
+    },
+    "label": "small_optimized/small_opt_01",
+    "manifest_sha256": "617bef7325f49f2f0dae112557ee81ad2c4eaa8d37ffe337020a5a0b4fe2d6c5",
+    "parent_source_identity": "f2c6a2e4700669f09a570b911b38f14aaddf6feaf3979dd832e656af19a3dd39",
+    "public_output_checksums_verified": 115,
+    "public_signal_records_match_inputs": true,
+    "runtime_randomness_excluded_from_published_data": true,
+    "source_identity": "5f62bc293f1ac9f4925b6523f154bb8400ca361a39ba4f47c396d2f8dc502a33",
+    "source_inputs": [
+      {
+        "path": "private/a_0/input.json",
+        "sha256": "ffb18752c269863958ec3a892cc5d05d98ced028dcbe7a7971649aaf4aa99559"
+      },
+      {
+        "path": "private/fixtures/A_0/0.json",
+        "sha256": "ccaa1231506d3319569a23e354ba96df6a44af243785a189fab841fbd04b96d8"
+      },
+      {
+        "path": "private/b_0/input.json",
+        "sha256": "9faa55d53c700861bf237b0d25046147563893565e9ea324bdf4038d72c5d351"
+      },
+      {
+        "path": "private/b_1/input.json",
+        "sha256": "6a08c0575271bb806ead0dd1bc09269596660ed9fe5cf69de79dfe98118179f4"
+      },
+      {
+        "path": "private/b_2/input.json",
+        "sha256": "f1194bd44e1a026d36e2f11fa0e86b8bfadc74e7e2bbd6b90fb15f627dae369b"
+      },
+      {
+        "path": "private/b_3/input.json",
+        "sha256": "af498d9cabb09f52b911752e6bd0fec8d7ae3f900a3c2832389632e1a442ae61"
+      },
+      {
+        "path": "private/b_4/input.json",
+        "sha256": "5b730fde12116b7702fb3317e22aadf929f009da6d901d19fd407dcbc7ff4797"
+      },
+      {
+        "path": "private/b_5/input.json",
+        "sha256": "de4febeb7d446fa70ad99c29fbdaa20455582bea30c5584dae60a9b2a59c7d2f"
+      },
+      {
+        "path": "private/b_6/input.json",
+        "sha256": "971c12468df7d6df338cab38403d072f17d7fde799d2fd0fec98586d5e751e1d"
+      },
+      {
+        "path": "private/b_7/input.json",
+        "sha256": "b1c3b0f8147c0c5ce112ffc844813856dd5c78ad3be2411adaf3f67d79d53621"
+      },
+      {
+        "path": "private/b_8/input.json",
+        "sha256": "7398c9bae6fabcf7be8aae41c87e98078e59bc098e1c187bfe0df3776676162b"
+      },
+      {
+        "path": "private/b_9/input.json",
+        "sha256": "7e778d536d0d3e93c111d808b93539e2fc819c436330ae44f31eb4a91d410966"
+      },
+      {
+        "path": "private/b_10/input.json",
+        "sha256": "428d38e3879471a83d51df21f848b29a65704c1dabfdc80d805246a0dd439d50"
+      },
+      {
+        "path": "private/b_11/input.json",
+        "sha256": "3b3c75222e71e94aabdb8e0f75eee5b1975e7b985b881ba86099646e90f5a92e"
+      },
+      {
+        "path": "private/b_12/input.json",
+        "sha256": "3bda5e04bd7b43e0975df97ed2b420aecea23f444c493ca3160c0f92424531f6"
+      },
+      {
+        "path": "private/b_13/input.json",
+        "sha256": "9aff5d87d2abc6efb908dc1fbe7ea9b6ef1f445fb319eb4b5e4b71c38e090899"
+      },
+      {
+        "path": "private/b_14/input.json",
+        "sha256": "2887d60f9e1aba38957d2ae990f93d98b3baf8de357a3b4d7e46fee228c73fb8"
+      },
+      {
+        "path": "private/b_15/input.json",
+        "sha256": "b7c54b0ccaf82067be5b6cf91d54d4c6b88f2f532700a99260150d0e39b9d068"
+      },
+      {
+        "path": "private/b_16/input.json",
+        "sha256": "f5d1b875741fbdc9dfac818f0c578a584a44a4c1311bc9b814e4c110d98b07dd"
+      },
+      {
+        "path": "private/b_17/input.json",
+        "sha256": "9c48e573a762c577187fca9b69019a3f623a1c56c6779c366c4171d4bc30367d"
+      },
+      {
+        "path": "private/b_18/input.json",
+        "sha256": "2a7a9263c152a7b58b5b9e0a341b66fb19f608c8974b06bedf0af77b9d774493"
+      },
+      {
+        "path": "private/b_19/input.json",
+        "sha256": "1b7d5beee3373adae615fcb4c86dda635b5f8d3b27cc80a91cfb16c80764cd92"
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "notes": [
+    "original.json copies numerical model/input values and all twenty modified-concept vectors from the completed optimized run inputs.",
+    "Integer traces, intervention differences and expected outputs were recomputed and checked using the retained reference; historical commitments were independently reconstructed in memory.",
+    "Runtime blinding, private nonces and historical public commitments are excluded. Fresh runtime commitments do not reproduce historical public commitments."
+  ],
+  "public_data_classification": "NON_CONFIDENTIAL_SYNTHETIC_TEST_DATA",
+  "public_files": {
+    "original.json": "68d08006a86f9faffbc6a3bc71155755ef9fe9be99a01a1733a07a046bf953aa"
+  },
+  "recovered_candidate_count": 20,
+  "recovered_fixture_kind": "COMPLETED_OPTIMIZED_EXPERIMENT_INPUTS",
+  "recovered_source": {
+    "mode": "synthetic_stress",
+    "path": "research/comparisons/private/circuit_witness_validation/small_optimized/private/fixtures/0/0.json",
+    "seed": 2026102701,
+    "sha256": "65239f728a7524dcc6731155bfda59984e9cd77f824f7caa873cc44a6a8c6765"
+  },
+  "schema": 1,
+  "source_verification": {
+    "commitment_randomness_excluded": true,
+    "derived_trace_fields": [],
+    "historical_public_commitments_reproduced": false,
+    "model_and_input_match_retained_seeded_generator": true,
+    "original_trace_matches_integer_reference": true,
+    "recorded_candidate_matches_integer_policy": true
+  }
+}
